@@ -19,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function ButtonAppBar() {
+export default function Header() {
   const classes = useStyles();
 
   return (
@@ -38,3 +38,4 @@ export default function ButtonAppBar() {
     </div>
   );
 }
+
